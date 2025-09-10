@@ -1,0 +1,3 @@
+Event{url='/fav', user='Tom', timestamp=2000}
+Event{url='/refund', user='Tom', timestamp=600}
+Event{url='/refund', user='Nancy', timestamp=4000}
