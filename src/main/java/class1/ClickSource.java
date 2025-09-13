@@ -11,7 +11,7 @@ public class ClickSource implements SourceFunction<Event> {
     public void run(SourceContext<Event> ctx) throws Exception {
         Random random = new Random();
         String[] users = {"Bob", "Nancy", "Kyle", "Tom", "Kevin"};
-        String[] urls = {"fav/", "order/", "cart/", "payment/", "referral/"};
+        String[] urls = {"fav/", "order/", "cart/", "payment/", "referral/", "/view", "/exit", "/refresh", "/signup", "/signin"};
         while (isRunning) {
             String user = users[random.nextInt(users.length)];
             String url = urls[random.nextInt(urls.length)];
